@@ -1,0 +1,202 @@
+[
+  {
+    "accountId": "12345678-4000-4000-8000-000000000065",
+    "clientId": "12345678-4000-4000-8000-000000000001",
+    "accountNumber": "SIM-DEMO-000001",
+    "accountType": "Operating",
+    "currency": "CAD",
+    "balanceMinor": 1250075,
+    "status": "Active",
+    "createdAt": "2026-03-01T10:00:00.000Z"
+  },
+  {
+    "accountId": "12345678-4000-4000-8000-000000000066",
+    "clientId": "12345678-4000-4000-8000-000000000001",
+    "accountNumber": "SIM-DEMO-000002",
+    "accountType": "Savings",
+    "currency": "USD",
+    "balanceMinor": 251284,
+    "status": "Active",
+    "createdAt": "2026-03-02T10:00:00.000Z"
+  },
+  {
+    "accountId": "12345678-4000-4000-8000-000000000067",
+    "clientId": "12345678-4000-4000-8000-000000000002",
+    "accountNumber": "SIM-DEMO-000003",
+    "accountType": "Investment",
+    "currency": "CAD",
+    "balanceMinor": 90802568,
+    "status": "Active",
+    "createdAt": "2026-03-03T10:00:00.000Z"
+  },
+  {
+    "accountId": "12345678-4000-4000-8000-000000000068",
+    "clientId": "12345678-4000-4000-8000-000000000002",
+    "accountNumber": "SIM-DEMO-000004",
+    "accountType": "Operating",
+    "currency": "USD",
+    "balanceMinor": 3827,
+    "status": "Active",
+    "createdAt": "2026-03-04T10:00:00.000Z"
+  },
+  {
+    "accountId": "12345678-4000-4000-8000-000000000069",
+    "clientId": "12345678-4000-4000-8000-000000000003",
+    "accountNumber": "SIM-DEMO-000005",
+    "accountType": "Savings",
+    "currency": "CAD",
+    "balanceMinor": 7805236,
+    "status": "Active",
+    "createdAt": "2026-03-05T10:00:00.000Z"
+  },
+  {
+    "accountId": "12345678-4000-4000-8000-00000000006a",
+    "clientId": "12345678-4000-4000-8000-000000000003",
+    "accountNumber": "SIM-DEMO-000006",
+    "accountType": "Investment",
+    "currency": "USD",
+    "balanceMinor": 1256245,
+    "status": "Active",
+    "createdAt": "2026-03-06T10:00:00.000Z"
+  },
+  {
+    "accountId": "12345678-4000-4000-8000-00000000006b",
+    "clientId": "12345678-4000-4000-8000-000000000004",
+    "accountNumber": "SIM-DEMO-000007",
+    "accountType": "Operating",
+    "currency": "CAD",
+    "balanceMinor": 257454,
+    "status": "Active",
+    "createdAt": "2026-03-07T10:00:00.000Z"
+  },
+  {
+    "accountId": "12345678-4000-4000-8000-00000000006c",
+    "clientId": "12345678-4000-4000-8000-000000000004",
+    "accountNumber": "SIM-DEMO-000008",
+    "accountType": "Savings",
+    "currency": "USD",
+    "balanceMinor": 90808738,
+    "status": "Active",
+    "createdAt": "2026-03-08T10:00:00.000Z"
+  },
+  {
+    "accountId": "12345678-4000-4000-8000-00000000006d",
+    "clientId": "12345678-4000-4000-8000-000000000005",
+    "accountNumber": "SIM-DEMO-000009",
+    "accountType": "Investment",
+    "currency": "CAD",
+    "balanceMinor": 9997,
+    "status": "Active",
+    "createdAt": "2026-03-09T10:00:00.000Z"
+  },
+  {
+    "accountId": "12345678-4000-4000-8000-00000000006e",
+    "clientId": "12345678-4000-4000-8000-000000000005",
+    "accountNumber": "SIM-DEMO-000010",
+    "accountType": "Operating",
+    "currency": "USD",
+    "balanceMinor": 7811406,
+    "status": "Active",
+    "createdAt": "2026-03-10T10:00:00.000Z"
+  },
+  {
+    "accountId": "12345678-4000-4000-8000-00000000006f",
+    "clientId": "12345678-4000-4000-8000-000000000006",
+    "accountNumber": "SIM-DEMO-000011",
+    "accountType": "Savings",
+    "currency": "CAD",
+    "balanceMinor": 1262415,
+    "status": "Active",
+    "createdAt": "2026-03-11T10:00:00.000Z"
+  },
+  {
+    "accountId": "12345678-4000-4000-8000-000000000070",
+    "clientId": "12345678-4000-4000-8000-000000000006",
+    "accountNumber": "SIM-DEMO-000012",
+    "accountType": "Investment",
+    "currency": "USD",
+    "balanceMinor": 263624,
+    "status": "Active",
+    "createdAt": "2026-03-12T10:00:00.000Z"
+  },
+  {
+    "accountId": "12345678-4000-4000-8000-000000000071",
+    "clientId": "12345678-4000-4000-8000-000000000007",
+    "accountNumber": "SIM-DEMO-000013",
+    "accountType": "Operating",
+    "currency": "CAD",
+    "balanceMinor": 90814908,
+    "status": "Active",
+    "createdAt": "2026-03-13T10:00:00.000Z"
+  },
+  {
+    "accountId": "12345678-4000-4000-8000-000000000072",
+    "clientId": "12345678-4000-4000-8000-000000000007",
+    "accountNumber": "SIM-DEMO-000014",
+    "accountType": "Savings",
+    "currency": "USD",
+    "balanceMinor": 16167,
+    "status": "Active",
+    "createdAt": "2026-03-14T10:00:00.000Z"
+  },
+  {
+    "accountId": "12345678-4000-4000-8000-000000000073",
+    "clientId": "12345678-4000-4000-8000-000000000008",
+    "accountNumber": "SIM-DEMO-000015",
+    "accountType": "Investment",
+    "currency": "CAD",
+    "balanceMinor": 7817576,
+    "status": "Active",
+    "createdAt": "2026-03-15T10:00:00.000Z"
+  },
+  {
+    "accountId": "12345678-4000-4000-8000-000000000074",
+    "clientId": "12345678-4000-4000-8000-000000000008",
+    "accountNumber": "SIM-DEMO-000016",
+    "accountType": "Operating",
+    "currency": "USD",
+    "balanceMinor": 1268585,
+    "status": "Active",
+    "createdAt": "2026-03-16T10:00:00.000Z"
+  },
+  {
+    "accountId": "12345678-4000-4000-8000-000000000075",
+    "clientId": "12345678-4000-4000-8000-000000000009",
+    "accountNumber": "SIM-DEMO-000017",
+    "accountType": "Savings",
+    "currency": "CAD",
+    "balanceMinor": 269794,
+    "status": "Active",
+    "createdAt": "2026-03-17T10:00:00.000Z"
+  },
+  {
+    "accountId": "12345678-4000-4000-8000-000000000076",
+    "clientId": "12345678-4000-4000-8000-000000000009",
+    "accountNumber": "SIM-DEMO-000018",
+    "accountType": "Investment",
+    "currency": "USD",
+    "balanceMinor": 90821078,
+    "status": "Active",
+    "createdAt": "2026-03-18T10:00:00.000Z"
+  },
+  {
+    "accountId": "12345678-4000-4000-8000-000000000077",
+    "clientId": "12345678-4000-4000-8000-00000000000a",
+    "accountNumber": "SIM-DEMO-000019",
+    "accountType": "Operating",
+    "currency": "CAD",
+    "balanceMinor": 22337,
+    "status": "Frozen",
+    "createdAt": "2026-03-19T10:00:00.000Z"
+  },
+  {
+    "accountId": "12345678-4000-4000-8000-000000000078",
+    "clientId": "12345678-4000-4000-8000-00000000000a",
+    "accountNumber": "SIM-DEMO-000020",
+    "accountType": "Savings",
+    "currency": "USD",
+    "balanceMinor": 7823746,
+    "status": "Closed",
+    "createdAt": "2026-03-20T10:00:00.000Z"
+  }
+]

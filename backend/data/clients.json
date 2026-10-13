@@ -1,0 +1,122 @@
+[
+  {
+    "clientId": "12345678-4000-4000-8000-000000000001",
+    "companyName": "Maple Manufacturing Ltd.",
+    "registrationNumber": "NB-2026-00001",
+    "industry": "Manufacturing",
+    "country": "United States",
+    "contactEmail": "operations@company1.example",
+    "contactPhone": "+1-416-555-0100",
+    "status": "Active",
+    "createdAt": "2026-01-01T09:00:00.000Z",
+    "updatedAt": "2026-02-01T09:00:00.000Z"
+  },
+  {
+    "clientId": "12345678-4000-4000-8000-000000000002",
+    "companyName": "Skyline Construction Inc.",
+    "registrationNumber": "NB-2026-00002",
+    "industry": "Construction",
+    "country": "Canada",
+    "contactEmail": "operations@company2.example",
+    "contactPhone": "+1-416-555-0101",
+    "status": "Active",
+    "createdAt": "2026-01-02T09:00:00.000Z",
+    "updatedAt": "2026-02-02T09:00:00.000Z"
+  },
+  {
+    "clientId": "12345678-4000-4000-8000-000000000003",
+    "companyName": "Northern Freight Group",
+    "registrationNumber": "NB-2026-00003",
+    "industry": "Transportation",
+    "country": "Canada",
+    "contactEmail": "operations@company3.example",
+    "contactPhone": "+1-416-555-0102",
+    "status": "Active",
+    "createdAt": "2026-01-03T09:00:00.000Z",
+    "updatedAt": "2026-02-03T09:00:00.000Z"
+  },
+  {
+    "clientId": "12345678-4000-4000-8000-000000000004",
+    "companyName": "Aurora Technology Corp.",
+    "registrationNumber": "NB-2026-00004",
+    "industry": "Technology",
+    "country": "United States",
+    "contactEmail": "operations@company4.example",
+    "contactPhone": "+1-416-555-0103",
+    "status": "Active",
+    "createdAt": "2026-01-04T09:00:00.000Z",
+    "updatedAt": "2026-02-04T09:00:00.000Z"
+  },
+  {
+    "clientId": "12345678-4000-4000-8000-000000000005",
+    "companyName": "Harbour Financial Services",
+    "registrationNumber": "NB-2026-00005",
+    "industry": "Financial Services",
+    "country": "Canada",
+    "contactEmail": "operations@company5.example",
+    "contactPhone": "+1-416-555-0104",
+    "status": "Active",
+    "createdAt": "2026-01-05T09:00:00.000Z",
+    "updatedAt": "2026-02-05T09:00:00.000Z"
+  },
+  {
+    "clientId": "12345678-4000-4000-8000-000000000006",
+    "companyName": "Cedar Retail Group",
+    "registrationNumber": "NB-2026-00006",
+    "industry": "Retail",
+    "country": "Canada",
+    "contactEmail": "operations@company6.example",
+    "contactPhone": "+1-416-555-0105",
+    "status": "Active",
+    "createdAt": "2026-01-06T09:00:00.000Z",
+    "updatedAt": "2026-02-06T09:00:00.000Z"
+  },
+  {
+    "clientId": "12345678-4000-4000-8000-000000000007",
+    "companyName": "Prairie Wholesale Supply",
+    "registrationNumber": "NB-2026-00007",
+    "industry": "Wholesale Distribution",
+    "country": "United States",
+    "contactEmail": "operations@company7.example",
+    "contactPhone": "+1-416-555-0106",
+    "status": "Active",
+    "createdAt": "2026-01-07T09:00:00.000Z",
+    "updatedAt": "2026-02-07T09:00:00.000Z"
+  },
+  {
+    "clientId": "12345678-4000-4000-8000-000000000008",
+    "companyName": "Atlantic Industrial Systems",
+    "registrationNumber": "NB-2026-00008",
+    "industry": "Manufacturing",
+    "country": "Canada",
+    "contactEmail": "operations@company8.example",
+    "contactPhone": "+1-416-555-0107",
+    "status": "Active",
+    "createdAt": "2026-01-08T09:00:00.000Z",
+    "updatedAt": "2026-02-08T09:00:00.000Z"
+  },
+  {
+    "clientId": "12345678-4000-4000-8000-000000000009",
+    "companyName": "Pacific Building Partners",
+    "registrationNumber": "NB-2026-00009",
+    "industry": "Construction",
+    "country": "Canada",
+    "contactEmail": "operations@company9.example",
+    "contactPhone": "+1-416-555-0108",
+    "status": "Inactive",
+    "createdAt": "2026-01-09T09:00:00.000Z",
+    "updatedAt": "2026-02-09T09:00:00.000Z"
+  },
+  {
+    "clientId": "12345678-4000-4000-8000-00000000000a",
+    "companyName": "Summit Logistics Inc.",
+    "registrationNumber": "NB-2026-00010",
+    "industry": "Transportation",
+    "country": "United States",
+    "contactEmail": "operations@company10.example",
+    "contactPhone": "+1-416-555-0109",
+    "status": "Suspended",
+    "createdAt": "2026-01-10T09:00:00.000Z",
+    "updatedAt": "2026-02-10T09:00:00.000Z"
+  }
+]

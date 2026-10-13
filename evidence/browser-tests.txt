@@ -1,0 +1,16 @@
+PASS desktop dashboard: seven metrics, chart and five recent rows
+PASS navigation and combined client filters
+PASS real client registration, confirmation and editing
+PASS real account registration, ownership, exact balance and dashboard refresh
+PASS server duplicate conflict displayed in client form
+PASS supplier reference investigation and two related-account links
+PASS invalid date-range API error displayed
+PASS transaction empty results
+PASS paginated transaction directory
+PASS tablet layout and navigation, no page overflow
+PASS observable loading indicator
+PASS API error state and successful retry
+PASS zero metrics and empty dashboard chart
+PASS invalid frontend route
+PASS no uncaught browser JavaScript exceptions
+Browser verification complete. Tests used a disposable dataset. Mocked responses were used only for loading, error and zero-state checks.

@@ -1,0 +1,29 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> finops-enterprise-api@1.0.0 test
+> node --test
+
+✔ health, dashboard and data verification agree (80.360512ms)
+✔ create, read, update, ownership and backend restart persistence (67.990478ms)
+✔ duplicate registration is trimmed and case insensitive, including parallel requests (34.27602ms)
+✔ client validation and immutable fields (56.999426ms)
+✔ combined client search, pagination and filter validation (32.564341ms)
+✔ account creation business rules and minor-unit validation (48.938217ms)
+✔ account combined filters and detail relationships (24.513627ms)
+✔ transaction reference lookup, combined inclusive UTC dates and related accounts (30.0297ms)
+✔ invalid dates, ranges, filters and pagination are rejected (26.421262ms)
+✔ newest ordering is deterministic with timestamp ties (13.998263ms)
+✔ read-only endpoints never alter balances or historical records (30.425715ms)
+✔ corrupt, missing and wrong-shape files return controlled errors without overwrite (30.935919ms)
+✔ parallel writes are serialized across repository instances and recover after errors (84.495542ms)
+✔ failed writes preserve data (7.400205ms)
+✔ empty datasets return zero metrics, empty arrays and zero total pages (13.850322ms)
+✔ malformed JSON and unknown routes have controlled responses; CORS is configured (11.668336ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 794.708964

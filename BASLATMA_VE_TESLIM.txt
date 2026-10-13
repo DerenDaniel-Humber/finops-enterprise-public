@@ -1,0 +1,30 @@
+FINOPS ENTERPRISE — ASSIGNMENT 1
+
+Bu klasor projenin kaynak kodlarini, ornek verileri, testleri, Postman koleksiyonunu ve 10 ekran goruntusunu icerir.
+
+BASLATMA (Node.js 22.9+):
+1. Bir terminalde backend klasorune gir: npm ci
+2. backend/.env.example dosyasini .env adi ile kopyala.
+3. npm run verify:data ve sonra npm start komutlarini calistir.
+4. Ikinci terminalde frontend klasorune gir: npm ci
+5. frontend/.env.example dosyasini .env adi ile kopyala.
+6. npm run dev komutunu calistir.
+7. Tarayicida http://127.0.0.1:5173 adresini ac.
+
+TESLIM:
+Bu ZIP yalnizca kaynak dosyalari sana aktarmak icindir. ZIP'i Blackboard'a yukleme.
+GitHub'da finops-enterprise adinda PRIVATE repository olustur.
+README.md icindeki komutlarla proje dosyalarini GitHub'a yukle.
+node_modules ve .env dosyalarini yukleme; .gitignore zaten bunlari dislar.
+Ogretmenin dogru GitHub kullanici adini veya e-postasini kullanarak Collaborator daveti gonder ve erisimi kontrol et.
+Blackboard metin kutusuna repository URL'sini yaz.
+
+GitHub repository olusturma, ogretmen erisimi ve Blackboard teslimi bu paketle yapilmis sayilmaz; bunlar ayrica tamamlanmalidir.
+
+DOGRULAMA:
+16 backend testi, 3 para donusumu testi, tarayici kontrolleri,
+35 Postman istegi ve 40 Postman assertion basarili.
+Gercek test loglari ve masaustu/tablet ekran goruntuleri evidence/ klasorundedir.
+Testler gecici kopyalar uzerinde calistirildi. Paketteki ilk veri 10 musteri, 20 hesap, 50 islemdir.
+README.md mimariyi, API'yi, kurallari ve bes teknik reflection yanitini aciklar.
+Assignment 2 icin ayni projeyi sakla.

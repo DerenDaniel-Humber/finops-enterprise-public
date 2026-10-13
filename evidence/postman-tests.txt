@@ -1,0 +1,170 @@
+(node:122) [DEP0176] DeprecationWarning: fs.F_OK is deprecated, use fs.constants.F_OK instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
+newman
+
+FinOps Enterprise — Release 1
+
+→ Health
+  GET http://localhost:3000/api/v1/health [200 OK, 332B, 30ms]
+  ✓  HTTP 200
+  ✓  Healthy status
+
+→ Dashboard summary
+  GET http://localhost:3000/api/v1/dashboard/summary [200 OK, 5.59kB, 4ms]
+  ✓  HTTP 200
+  ✓  Recent transactions limited to five
+
+→ Client directory
+  GET http://localhost:3000/api/v1/clients?page=1&pageSize=10 [200 OK, 3.89kB, 4ms]
+  ✓  HTTP 200
+
+→ Combined client search and filters
+  GET http://localhost:3000/api/v1/clients?search=maple&status=Active&industry=Manufacturing [200 OK, 710B, 3ms]
+  ✓  HTTP 200
+
+→ Client profile and associated accounts
+  GET http://localhost:3000/api/v1/clients/12345678-4000-4000-8000-000000000001 [200 OK, 1.26kB, 5ms]
+  ✓  HTTP 200
+
+→ Register corporate client
+  POST http://localhost:3000/api/v1/clients [201 Created, 684B, 25ms]
+  ✓  HTTP 201
+  ✓  New client is active
+
+→ Duplicate registration conflict
+  POST http://localhost:3000/api/v1/clients [409 Conflict, 380B, 5ms]
+  ✓  HTTP 409
+
+→ Missing company name
+  POST http://localhost:3000/api/v1/clients [400 Bad Request, 411B, 3ms]
+  ✓  HTTP 400
+
+→ Invalid email
+  POST http://localhost:3000/api/v1/clients [400 Bad Request, 417B, 3ms]
+  ✓  HTTP 400
+
+→ Update client
+  PATCH http://localhost:3000/api/v1/clients/ccd54621-3654-4f6a-b2c4-7f0053c47722 [200 OK, 618B, 4ms]
+  ✓  HTTP 200
+
+→ Immutable registration rejected
+  PATCH http://localhost:3000/api/v1/clients/ccd54621-3654-4f6a-b2c4-7f0053c47722 [400 Bad Request, 428B, 3ms]
+  ✓  HTTP 400
+
+→ Unsupported status
+  PATCH http://localhost:3000/api/v1/clients/ccd54621-3654-4f6a-b2c4-7f0053c47722 [400 Bad Request, 423B, 2ms]
+  ✓  HTTP 400
+
+→ Nonexistent client
+  GET http://localhost:3000/api/v1/clients/00000000-0000-4000-8000-000000000000 [404 Not Found, 345B, 3ms]
+  ✓  HTTP 404
+
+→ Account directory
+  GET http://localhost:3000/api/v1/accounts?page=1&pageSize=10 [200 OK, 3.36kB, 2ms]
+  ✓  HTTP 200
+
+→ Combined account filters
+  GET http://localhost:3000/api/v1/accounts?clientId=12345678-4000-4000-8000-000000000001&accountType=Operating&currency=CAD&status=Active [200 OK, 654B, 2ms]
+  ✓  HTTP 200
+
+→ Account profile
+  GET http://localhost:3000/api/v1/accounts/12345678-4000-4000-8000-000000000065 [200 OK, 914B, 2ms]
+  ✓  HTTP 200
+
+→ Open account
+  POST http://localhost:3000/api/v1/accounts [201 Created, 625B, 6ms]
+  ✓  HTTP 201
+
+→ Reject inactive client
+  POST http://localhost:3000/api/v1/accounts [409 Conflict, 381B, 2ms]
+  ✓  HTTP 409
+
+→ Reject suspended client
+  POST http://localhost:3000/api/v1/accounts [409 Conflict, 381B, 2ms]
+  ✓  HTTP 409
+
+→ Nonexistent account owner
+  POST http://localhost:3000/api/v1/accounts [404 Not Found, 345B, 2ms]
+  ✓  HTTP 404
+
+→ Negative balance
+  POST http://localhost:3000/api/v1/accounts [400 Bad Request, 438B, 2ms]
+  ✓  HTTP 400
+
+→ Fractional minor units
+  POST http://localhost:3000/api/v1/accounts [400 Bad Request, 438B, 2ms]
+  ✓  HTTP 400
+
+→ Unsupported currency
+  POST http://localhost:3000/api/v1/accounts [400 Bad Request, 408B, 1ms]
+  ✓  HTTP 400
+
+→ Nonexistent account
+  GET http://localhost:3000/api/v1/accounts/00000000-0000-4000-8000-000000000000 [404 Not Found, 346B, 3ms]
+  ✓  HTTP 404
+
+→ Transaction directory
+  GET http://localhost:3000/api/v1/transactions?page=1&pageSize=10 [200 OK, 10.45kB, 4ms]
+  ✓  HTTP 200
+
+→ Supplier payment investigation
+  GET http://localhost:3000/api/v1/transactions?search=TXN-2026-000001 [200 OK, 1.37kB, 5ms]
+  ✓  HTTP 200
+  ✓  Supplier payment found
+
+→ Combined transaction filters and inclusive dates
+  GET http://localhost:3000/api/v1/transactions?search=TXN-2026-000001&sourceAccountId=12345678-4000-4000-8000-000000000065&status=Completed&from=2026-09-01&to=2026-09-01 [200 OK, 1.37kB, 3ms]
+  ✓  HTTP 200
+
+→ Incoming and outgoing account transactions
+  GET http://localhost:3000/api/v1/transactions?accountId=12345678-4000-4000-8000-000000000065 [200 OK, 5.41kB, 2ms]
+  ✓  HTTP 200
+
+→ Transaction detail
+  GET http://localhost:3000/api/v1/transactions/12345678-4000-4000-8000-0000000003e9 [200 OK, 1.3kB, 2ms]
+  ✓  HTTP 200
+
+→ Invalid date range
+  GET http://localhost:3000/api/v1/transactions?from=2026-10-10&to=2026-09-01 [400 Bad Request, 442B, 2ms]
+  ✓  HTTP 400
+
+→ Impossible calendar date
+  GET http://localhost:3000/api/v1/transactions?from=2026-02-30 [400 Bad Request, 350B, 1ms]
+  ✓  HTTP 400
+
+→ Empty transaction search
+  GET http://localhost:3000/api/v1/transactions?search=DOES-NOT-EXIST [200 OK, 352B, 2ms]
+  ✓  HTTP 200
+  ✓  Empty results
+
+→ Nonexistent transaction
+  GET http://localhost:3000/api/v1/transactions/00000000-0000-4000-8000-000000000000 [404 Not Found, 350B, 2ms]
+  ✓  HTTP 404
+
+→ Transactions are read-only
+  POST http://localhost:3000/api/v1/transactions [404 Not Found, 351B, 1ms]
+  ✓  HTTP 404
+
+→ Invalid pagination
+  GET http://localhost:3000/api/v1/clients?pageSize=101 [400 Bad Request, 409B, 1ms]
+  ✓  HTTP 400
+
+┌─────────────────────────┬─────────────────┬─────────────────┐
+│                         │        executed │          failed │
+├─────────────────────────┼─────────────────┼─────────────────┤
+│              iterations │               1 │               0 │
+├─────────────────────────┼─────────────────┼─────────────────┤
+│                requests │              35 │               0 │
+├─────────────────────────┼─────────────────┼─────────────────┤
+│            test-scripts │              35 │               0 │
+├─────────────────────────┼─────────────────┼─────────────────┤
+│      prerequest-scripts │               1 │               0 │
+├─────────────────────────┼─────────────────┼─────────────────┤
+│              assertions │              40 │               0 │
+├─────────────────────────┴─────────────────┴─────────────────┤
+│ total run duration: 684ms                                   │
+├─────────────────────────────────────────────────────────────┤
+│ total data received: 35.85kB (approx)                       │
+├─────────────────────────────────────────────────────────────┤
+│ average response time: 4ms [min: 1ms, max: 30ms, s.d.: 5ms] │
+└─────────────────────────────────────────────────────────────┘
