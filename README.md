@@ -2,6 +2,16 @@
 
 Corporate Financial Operations Portal for the fictional Northbridge Commercial Bank. This release centralizes corporate client registration, account administration, historical transfer investigation and operational reporting. It is an academic simulation; it does not execute payments or use real banking identifiers.
 
+## Supplementary PDF report
+
+[Technical and testing report](docs/FinOps_Release1_Report.pdf) provides the architecture, API catalogue, data rules, recorded validation results, all five technical reflection answers and selected desktop/tablet screenshots. The assignment does not explicitly request a separate PDF; this report supplements the required README and evidence. All ten original screenshots remain in `evidence/`.
+
+Private repository: https://github.com/DerenDaniel-Humber/finops-enterprise
+
+Public copy: https://github.com/DerenDaniel-Humber/finops-enterprise-public
+
+Instructor access to the private repository still needs to be granted.
+
 ## Requirements and quick start
 
 Use Node.js **22.9 or later** and npm. The application has two independent ES-module projects. No database server is required. The committed JSON files are the initial demonstration data; there is no automatic reset or seeding on startup.
